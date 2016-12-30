@@ -12,7 +12,6 @@ function draw() {
     for(var j = 0; j <= height; j += 20) {
       var size = dist(mouseX, mouseY, i, j);
       size = size/max_distance * 40;
-      size += random(0.1,3);
       ellipse(i, j, size, size);
       fill(clrR, clrG, clrB);
     }
